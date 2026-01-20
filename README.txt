@@ -9,4 +9,4 @@ How to run: TBD
 
 Features: Skill points, classes, equipment collection, choices.
 
-Contorls: TBD
+Controls: TBD
