@@ -19,7 +19,7 @@ class BaseGame:
             self.screen.fill(self.bg_color)
             pygame.display.flip() #Update the display
             self.clock.tick(self.FPS) # Control the frame rate
-if __name__ = "__main__"
+if __name__ == "__main__":
 
                 # Test 1: Create a game instance with custom parameters
                 game = BaseGame(width=1024, height=768, title="The world's best (worst) game ever!")
@@ -34,7 +34,7 @@ if __name__ = "__main__"
                 print(f"Is Running: {game.running}")
                 # Expected Output: Successful creation of the game with the specific parameters listed in the terminal.
 
-                # Test 2: Verfication of default parameters
+                # Test 2: Verification of default parameters
                 default_game = BaseGame()
                 print("Test 2 Successful: Game has been created with default params.")
                 print(f"Default Game Title: {pygame.display.get_caption()[0]}")
@@ -44,7 +44,7 @@ if __name__ = "__main__"
                 print(f"Default Is Running: {default_game.running}")
                 # Expected Output: Successful creation of the game with the default parameters listed in the terminal. No errors encountered.
 
-                # Test 3: Check if pygame is initialiazed
+                # Test 3: Check if pygame is initialized
                 if pygame.get_init():
                     print("Test 3 Successful: Pygame is initialized.")
                 else:
